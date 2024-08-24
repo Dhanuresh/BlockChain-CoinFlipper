@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum Coin Flip Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ethereum Coin Flip Game</h1>
+        <button id="connectWallet">Connect Wallet</button>
+        <p id="walletAddress">Not Connected</p>
+        <p id="balance">Balance: 0 ETH</p>
+        <input type="number" id="betAmount" placeholder="Enter bet amount in ETH">
+        <div class="buttons">
+            <button id="flipCoin">Flip Coin</button>
+            <button id="getFreeCoins">Get Free Coins</button>
+            <button id="reset">Reset</button>
+        </div>
+        <p id="result"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
